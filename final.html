@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+ 
+<!-- homepage-->  
+  <head>
+    <link rel="stylesheet" href="final.css" media="screen" type="text/css">
+    <script src="final.js"></script> 
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+    <h1> Find out what Boston restaurant you should go to right now! </h1>
+  </head>
+  
+  <body>
+    
+    <button id="buttonGo"> Let's Get Started! </button>
+    
+<!-- first page -->
+    
+    <section="questions">
+      <div id="firstQ" class="hidden">
+
+        <label for="freetime"> How do you spend your free time? </label>
+          <ul>
+            <input type="radio" name="freetime" value="Reading a good book">Reading a good book
+          </ul>
+
+          <ul>
+            <input type="radio" name="freetime" value="Being cool as hell">Being cool as hell
+          </ul>
+
+          <ul>
+            <input type="radio" name="freetime" value="Catch me at the gym">Catch me at the gym
+          </ul>            
+        <button class="button1">Continue</button>
+       </div>
+    
+<!-- second page -->
+
+      <div id="secondQ" class="hidden">
+
+         <label for="work"> How do you get to work in the morning? </label>
+          <ul>
+             <input type="radio" name="work" value="Work? What's that?">Work? What's that?
+          </ul>
+
+          <ul>
+            <input type="radio" name="work" value="Use public transportation">Use public transportation
+          </ul>
+
+          <ul>
+            <input type="radio" name="work" value="I walk the entire way">CI walk the entire way
+          </ul>
+        <button class="button2">Continue</button>
+      </div>
+    
+<!-- third page -->
+    
+      <div id="thirdQ" class=hidden> 
+        <h1> Which food best describes your personality? </h1>
+    
+          <div class="image1"> 
+           <img src="image1.jpg" alt="burger">
+          </div>
+
+          <div class="image2"> 
+            <img src="image2.jpg" alt="cake">
+          </div>s
+
+          <div class="image3"> 
+            <img src="image3.jpg" alt="sushi">
+          </div>
+
+          <button class="button3">Get Results</button>
+      </div>
+    </section>
+
+<!-- results page -->
+    
+    <h1> restaurant name </h1>
+      <h3> explanation of chosen answer </h3>
+    
+      <p> restaurant details </p>
+      <img src="restaurant_image.jpg" alt="Restaurant">
+
+  </body>
+</html>
+
